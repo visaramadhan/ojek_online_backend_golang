@@ -10,15 +10,17 @@ Active Drivers: View drivers who actively take orders each month.
 Implementation
 The application uses the Repository pattern to implement queries effectively. This pattern helps to organize code, making it more modular and maintainable.
 
+
 Usage
 Database Setup: Define tables for Customer, Driver, Order, and Area with relationships to implement the features.
 Add Features: Include data entry features for customers, drivers, and orders to facilitate CRUD operations.
 Requirements
-Database: MySQL / PostgreSQL (or any preferred relational database)
-Backend Language: Python (with SQLAlchemy) / Node.js (with Sequelize)
-Framework (optional): Flask / Express for API
+
+Database: PostgreSQL 
+
+Backend Language: GOLANG
 Getting Started
 Clone this repository.
 Set up the database schema as described in db_schema.sql.
 Implement the repository pattern in your chosen language.
-Run the application and test the features.
+Run the application on terminal and test the features.
